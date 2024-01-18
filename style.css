@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    height: 100%;
+    width: 50%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    width: 250px;
+    height: 250px;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.type {
+    text-align: center;
+    width: 4.5rem;
+    border-radius: 2rem;
+    padding-bottom: 2%;
+}
+
+.containerType {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 80%;
+}
+
+/* estilos de cada tipo */
+.grass {
+    background-color: #3CB371;
+}
+
+.fire {
+    background-color: #FF6347;
+}
+
+.flying {
+    background-color: #FF8C00;
+}
+
+.water {
+    background-color: #00BFFF;
+}
+
+.bug {
+    background-color: #00CED1;
+}
+
+.electric {
+    background-color: #FFFF00;
+}
+
+.poison {
+    background-color: #7B68EE;
+}
+
+.ground {
+    background-color: #8B4513;
+}
+
+.normal {
+    background-color: #A9A9A9;
+}
