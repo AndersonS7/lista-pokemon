@@ -18,6 +18,10 @@ h2 {
     text-transform: uppercase;
 }
 
+img {
+    border-radius: 50%;
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -42,9 +46,8 @@ h2 {
     background-color: #FFFFFF;
     padding: 1rem;
     border-radius: 1.5rem;
-    width: 250px;
-    height: 250px;
-    gap: 2rem;
+    width: 270px;
+    gap: 1.5rem;
 }
 
 .title {
@@ -100,6 +103,68 @@ h2 {
 .formContainer>form>select {
     font-size: 1.2rem;
     opacity: 50%;
+}
+
+/*container image*/
+.containerImg {
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 30px -20px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+}
+
+/* Adicionando estatísticas */
+.containerStats {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.containerStats p {
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0px 5px;
+    width: 6rem;
+}
+
+.containerStats span {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#health,
+#attack,
+#defense {
+    display: flex;
+    justify-content: start;
+}
+
+#health p {
+    background-color: tomato;
+}
+
+#attack p {
+    background-color: #3CB371;
+}
+
+#defense p {
+    background-color: #1E90FF;
+}
+
+#health span {
+    background-color: tomato;
+}
+
+#attack span {
+    background-color: #3CB371;
+}
+
+#defense span {
+    background-color: #1E90FF;
 }
 
 /* estilos de cada tipo */
